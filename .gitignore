@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore datasets
+Data/
+Ai_generated_dataset/
+real_dataset/
+
+# Ignore extra models
+*.keras
+best_model.h5
+
+# Keep only deployment model
+!AI_vs_Real_Deployment/ai_vs_real_model.h5
+
+# System files
+.DS_Store
+Thumbs.db
